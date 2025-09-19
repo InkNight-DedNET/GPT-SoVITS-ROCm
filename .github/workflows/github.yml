@@ -26,4 +26,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/inknight-dednet/GPT-SoVITS-ROCm:latest
+          tags: ghcr.io/inknight-dednet/gpt-sovits-rocm:latest
