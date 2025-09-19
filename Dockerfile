@@ -10,7 +10,7 @@ ENV CUDA_VERSION=${CUDA_VERSION}
 
 # 安装基础依赖和 Git、Python 环境
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    git python3 python3-pip python3-venv wget cmake ffmpeg && \
+    git python3 python3-pip python3-venv wget cmake ffmpeg build-essential && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # 克隆 ComfyUI 项目
